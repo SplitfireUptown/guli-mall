@@ -1,0 +1,29 @@
+package com.uptown.guli.product.service.impl;
+
+import org.springframework.stereotype.Service;
+import java.util.Map;
+import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
+import com.baomidou.mybatisplus.core.metadata.IPage;
+import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
+import com.uptown.common.utils.PageUtils;
+import com.uptown.common.utils.Query;
+
+import com.uptown.guli.product.dao.SkuImagesDao;
+import com.uptown.guli.product.entity.SkuImagesEntity;
+import com.uptown.guli.product.service.SkuImagesService;
+
+
+@Service("skuImagesService")
+public class SkuImagesServiceImpl extends ServiceImpl<SkuImagesDao, SkuImagesEntity> implements SkuImagesService {
+
+    @Override
+    public PageUtils queryPage(Map<String, Object> params) {
+        IPage<SkuImagesEntity> page = this.page(
+                new Query<SkuImagesEntity>().getPage(params),
+                new QueryWrapper<SkuImagesEntity>()
+        );
+
+        return new PageUtils(page);
+    }
+
+}
