@@ -1,7 +1,10 @@
 package com.uptown.guli.product.controller;
 
 import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
 import java.util.Map;
+import java.util.stream.Collectors;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
@@ -31,16 +34,28 @@ public class CategoryController {
     private CategoryService categoryService;
 
     /**
-     * 列表
+     * 返回树形结构列表
      */
-    @RequestMapping("/list")
+    @RequestMapping("/list/tree")
     public R list(@RequestParam Map<String, Object> params){
-        PageUtils page = categoryService.queryPage(params);
+        List<CategoryEntity> treeList = categoryService.listWithTree();
 
-        return R.ok().put("page", page);
+        treeList.stream().filter(i -> {
+            return i.getParentCid() == 0;
+        }).peek(i -> {
+            i.setChildren(getChildrens(i, treeList));
+        }).sorted(Comparator.comparingInt(CategoryEntity::getSort)).collect(Collectors.toList());
+        return R.ok().put("treeList", treeList);
     }
 
-
+    private List<CategoryEntity> getChildrens(CategoryEntity root, List<CategoryEntity> all) {
+        return all.stream().filter(categoryEntity -> {
+            return categoryEntity.getParentCid() == root.getCatId();
+        }).map(categoryEntity -> {
+            categoryEntity.setChildren(getChildrens(categoryEntity, all));
+            return categoryEntity;
+        }).sorted(Comparator.comparingInt(CategoryEntity::getSort)).collect(Collectors.toList());
+    }
     /**
      * 信息
      */
