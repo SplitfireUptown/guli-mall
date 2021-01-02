@@ -1,0 +1,4 @@
+spring.application.name=renren-fast
+#spring.cloud.nacos.config.server-addr=127.0.0.1:8848
+#spring.cloud.nacos.config.namespace=6b772601-ca76-40fc-8159-3ba884805f5e
+server.port=8080
