@@ -28,7 +28,7 @@ import com.uptown.common.utils.R;
  * @date 2020-11-15 21:08:27
  */
 @RestController
-@RequestMapping("product/category")
+@RequestMapping("/product/category")
 public class CategoryController {
     @Autowired
     private CategoryService categoryService;
