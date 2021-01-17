@@ -2,10 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="886ef34c-10c8-4ba6-a156-297742a1b6ea" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/guli-ware/src/main/resources/bootstrap.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guli-gateway/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/guli-gateway/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/BrandController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/BrandController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/CategoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/CategoryController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/guli-product/src/test/java/com/uptown/guli/product/GuliProductApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-product/src/test/java/com/uptown/guli/product/GuliProductApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/entity/CategoryEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/entity/CategoryEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/service/CategoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/service/CategoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/service/impl/CategoryServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-product/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/guli-product/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/guli-ware/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/java/com/uptown/guli/ware/GuliWareApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/guli-ware/src/main/java/com/uptown/guli/ware/GuliWareApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/purchase-add-or-update.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/purchase.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/purchasedetail-add-or-update.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/purchasedetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/undolog-add-or-update.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/undolog.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/wareinfo-add-or-update.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/wareinfo.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/wareordertask-add-or-update.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/wareordertask.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/wareordertaskdetail-add-or-update.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/wareordertaskdetail.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/waresku-add-or-update.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/guli-ware/src/main/resources/src/views/modules/ware/waresku.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/renren-generator/src/test/java/io/renren/RenrenApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/renren-generator/src/test/java/io/renren/RenrenApplicationTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/guli-member/target/" />
@@ -43,87 +65,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/guli-gateway/src/main/resources/application.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/CategoryController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/BrandController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guli-product/src/main/resources/application.yaml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/GuliProductApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="151">
-              <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#521#522#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guli-product/src/main/resources/bootstrap.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/guli-gateway/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-fast/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="486">
-              <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+            <state relative-caret-position="314">
+              <caret line="68" column="35" lean-forward="true" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -150,7 +95,6 @@
       <find>a</find>
       <find>openfeign</find>
       <find>loadbalancer</find>
-      <find>spring-boot-starter-parent</find>
       <find>sentinel</find>
       <find>sentinel-datasource-extension-nacos</find>
       <find>nacos-client</find>
@@ -168,11 +112,17 @@
       <find>category/list/tree</find>
       <find>renren-fast</find>
       <find>/renren-fast</find>
+      <find>/product/category</find>
+      <find>spring-boot-starter-parent</find>
+      <find>cloud</find>
     </findStrings>
     <replaceStrings>
       <replace />
       <replace>Greenwich.SR3</replace>
     </replaceStrings>
+    <dirStrings>
+      <dir>E:\Project\JavaProject\guli\guli-ware\src\main\resources\src\views\modules</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -180,12 +130,7 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/guli-common/src/main/java/com/uptown/common/xss/SQLFilter.java" />
-        <option value="$PROJECT_DIR$/guli-coupon/src/main/java/com/uptown/guli/coupon/entity/CouponHistoryEntity.java" />
-        <option value="$PROJECT_DIR$/guli-coupon/src/main/java/com/uptown/guli/coupon/entity/UndoLogEntity.java" />
-        <option value="$PROJECT_DIR$/guli-order/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/guli-ware/src/main/resources/application.yaml" />
-        <option value="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/renren-generator/src/main/resources/generator.properties" />
         <option value="$PROJECT_DIR$/guli-ware/src/main/java/com/uptown/guli/ware/entity/UndoLogEntity.java" />
         <option value="$PROJECT_DIR$/guli-order/src/main/java/com/uptown/guli/order/entity/UndoLogEntity.java" />
@@ -199,16 +144,11 @@
         <option value="$PROJECT_DIR$/guli-coupon/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/guli-coupon/src/main/resources/bootstrap.properties" />
         <option value="$PROJECT_DIR$/guli-gateway/src/main/java/com/uptown/guli/gateway/GuliGatewayApplication.java" />
-        <option value="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/service/CategoryService.java" />
         <option value="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/entity/UndoLogEntity.java" />
-        <option value="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/service/impl/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/guli-product/src/main/resources/application.yaml" />
         <option value="$PROJECT_DIR$/guli-coupon/src/test/java/com/uptown/guli/coupon/GuliCouponApplicationTests.java" />
         <option value="$PROJECT_DIR$/guli-product/pom.xml" />
         <option value="$PROJECT_DIR$/guli-product/src/main/resources/bootstrap.properties" />
-        <option value="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/entity/CategoryEntity.java" />
         <option value="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/GuliProductApplication.java" />
-        <option value="$PROJECT_DIR$/guli-ware/pom.xml" />
         <option value="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/RenrenApplication.java" />
         <option value="$PROJECT_DIR$/guli-coupon/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
@@ -229,8 +169,18 @@
         <option value="$PROJECT_DIR$/renren-fast/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/guli-product/src/test/java/com/uptown/guli/product/GuliProductApplicationTests.java" />
-        <option value="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/CategoryController.java" />
         <option value="$PROJECT_DIR$/guli-gateway/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/service/CategoryService.java" />
+        <option value="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/service/impl/CategoryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/entity/CategoryEntity.java" />
+        <option value="$PROJECT_DIR$/guli-product/src/main/resources/application.yaml" />
+        <option value="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/CategoryController.java" />
+        <option value="$PROJECT_DIR$/renren-generator/src/test/java/io/renren/RenrenApplicationTests.java" />
+        <option value="$PROJECT_DIR$/renren-generator/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/guli-ware/src/main/java/com/uptown/guli/ware/GuliWareApplication.java" />
+        <option value="$PROJECT_DIR$/guli-ware/pom.xml" />
+        <option value="$PROJECT_DIR$/guli-ware/src/main/resources/bootstrap.properties" />
+        <option value="$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/BrandController.java" />
       </list>
     </option>
   </component>
@@ -288,52 +238,42 @@
             <path>
               <item name="guli" type="b2602c69:ProjectViewProjectNode" />
               <item name="guli" type="462c0819:PsiDirectoryNode" />
-              <item name="guli-product" type="462c0819:PsiDirectoryNode" />
+              <item name="renren-generator" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guli" type="b2602c69:ProjectViewProjectNode" />
               <item name="guli" type="462c0819:PsiDirectoryNode" />
-              <item name="guli-product" type="462c0819:PsiDirectoryNode" />
+              <item name="renren-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guli" type="b2602c69:ProjectViewProjectNode" />
               <item name="guli" type="462c0819:PsiDirectoryNode" />
-              <item name="guli-product" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="guli" type="b2602c69:ProjectViewProjectNode" />
-              <item name="guli" type="462c0819:PsiDirectoryNode" />
-              <item name="guli-product" type="462c0819:PsiDirectoryNode" />
+              <item name="renren-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guli" type="b2602c69:ProjectViewProjectNode" />
               <item name="guli" type="462c0819:PsiDirectoryNode" />
-              <item name="guli-product" type="462c0819:PsiDirectoryNode" />
+              <item name="renren-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guli" type="b2602c69:ProjectViewProjectNode" />
               <item name="guli" type="462c0819:PsiDirectoryNode" />
-              <item name="guli-product" type="462c0819:PsiDirectoryNode" />
+              <item name="renren-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="product" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
+              <item name="renren" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="guli" type="b2602c69:ProjectViewProjectNode" />
               <item name="guli" type="462c0819:PsiDirectoryNode" />
-              <item name="guli-product" type="462c0819:PsiDirectoryNode" />
+              <item name="renren-generator" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
@@ -355,25 +295,25 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/renren-fast/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/guli-ware/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Language Defaults" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.uptown.common.utils" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Project\JavaProject\guli\guli-ware\src\main\resources" />
       <recent name="E:\Project\JavaProject\guli\renren-fast\src\main\resources" />
       <recent name="E:\Project\JavaProject\guli\guli-product\src\main\resources" />
       <recent name="E:\Project\JavaProject\guli\guli-gateway\src\main\resources" />
       <recent name="E:\Project\JavaProject\guli\guli-member\src\main\resources" />
-      <recent name="E:\Project\JavaProject\guli\guli-common\src\main\java\com\uptown\common" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -394,7 +334,7 @@
     </option>
     <option name="contentProportion" value="0.2124317" />
   </component>
-  <component name="RunManager" selected="Spring Boot.GuliGatewayApplication">
+  <component name="RunManager" selected="Spring Boot.RenrenApplication (1)">
     <configuration name="GuliCouponApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="guli-coupon" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.uptown.guli.coupon.GuliCouponApplication" />
@@ -467,8 +407,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.RenrenApplication" />
         <item itemvalue="Spring Boot.RenrenApplication (1)" />
+        <item itemvalue="Spring Boot.RenrenApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -503,17 +443,19 @@
       <workItem from="1609474531521" duration="8613000" />
       <workItem from="1609567895356" duration="20515000" />
       <workItem from="1610280065511" duration="2389000" />
-      <workItem from="1610292652819" duration="2384000" />
+      <workItem from="1610292652819" duration="2590000" />
+      <workItem from="1610777517253" duration="5528000" />
+      <workItem from="1610857295369" duration="7245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="127438000" />
+    <option name="totallyTimeSpent" value="140417000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49327356" visible="true" weight="0.24463807" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49327356" visible="true" weight="0.24798928" />
       <window_info id="Structure" order="1" sideWeight="0.50293255" side_tool="true" weight="0.23123324" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -521,6 +463,7 @@
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" sideWeight="0.50672644" side_tool="true" weight="0.23793566" />
+      <window_info anchor="bottom" id="Thumbnails" weight="0.32991204" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.6363636" />
@@ -536,7 +479,7 @@
       <window_info anchor="bottom" id="Spring" order="12" weight="0.32991204" />
       <window_info anchor="bottom" id="Java Enterprise" order="13" weight="0.32991204" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32991204" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4633431" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" order="15" visible="true" weight="0.4589443" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -584,93 +527,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/entity/CategoryEntity.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="53" column="7" lean-forward="true" selection-start-line="53" selection-start-column="7" selection-end-line="53" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/LanguageAndSoftWare/maven-3.5.2/apache-maven-3.5.2/local/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/impl/jdbcjobstore/StdJDBCDelegate.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="1265" selection-start-line="1265" selection-end-line="1265" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-product/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="720">
-          <caret line="45" column="56" selection-start-line="45" selection-start-column="55" selection-end-line="45" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/LanguageAndSoftWare/maven-3.5.2/apache-maven-3.5.2/local/org/quartz-scheduler/quartz/2.3.0/quartz-2.3.0.jar!/org/quartz/impl/jdbcjobstore/JobStoreSupport.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11296">
-          <caret line="854" selection-start-line="854" selection-end-line="854" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="25" lean-forward="true" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/LanguageAndSoftWare/maven-3.5.2/apache-maven-3.5.2/local/org/springframework/boot/spring-boot/2.3.2.RELEASE/spring-boot-2.3.2.RELEASE.jar!/org/springframework/boot/web/servlet/context/ServletWebServerApplicationContext.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/FilterConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="373">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/MybatisPlusConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/LanguageAndSoftWare/maven-3.5.2/apache-maven-3.5.2/local/com/alibaba/cloud/spring-cloud-alibaba-nacos-discovery/2.1.0.RELEASE/spring-cloud-alibaba-nacos-discovery-2.1.0.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="387">
-          <caret line="26" column="37" lean-forward="true" selection-start-line="26" selection-start-column="37" selection-end-line="26" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/LanguageAndSoftWare/maven-3.5.2/apache-maven-3.5.2/local/org/springframework/boot/spring-boot-starter-parent/2.2.4.RELEASE/spring-boot-starter-parent-2.2.4.RELEASE.pom">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-48" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/guli-coupon/src/main/java/com/uptown/guli/coupon/GuliCouponApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#354#355#0" expanded="true" />
-            <element signature="e#426#427#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guli-coupon/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -828,13 +684,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guli-common/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-592">
-          <caret line="20" column="28" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://E:/LanguageAndSoftWare/maven-3.5.2/apache-maven-3.5.2/local/org/springframework/spring-web/5.1.9.RELEASE/spring-web-5.1.9.RELEASE.jar!/org/springframework/web/cors/reactive/CorsWebFilter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
@@ -871,20 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/renren-fast/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="486">
-          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/guli-product/src/test/java/com/uptown/guli/product/GuliProductApplicationTests.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -895,45 +730,97 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/BrandController.java">
+    <entry file="file://$PROJECT_DIR$/guli-gateway/src/main/resources/application.yaml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+        <state relative-caret-position="288">
+          <caret line="17" column="20" selection-start-line="17" selection-start-column="20" selection-end-line="17" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guli-product/src/main/resources/application.yaml">
+    <entry file="file://$PROJECT_DIR$/renren-fast/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        <state relative-caret-position="486">
+          <caret line="27" column="22" selection-start-line="27" selection-start-column="22" selection-end-line="27" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guli-product/src/main/resources/bootstrap.properties">
+    <entry file="file://$PROJECT_DIR$/renren-fast/src/main/java/io/renren/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="25" column="1" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/service/CategoryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/service/impl/CategoryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="32" column="23" selection-start-line="32" selection-start-column="23" selection-end-line="32" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/entity/CategoryEntity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="37" column="26" selection-start-line="37" selection-start-column="17" selection-end-line="37" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="18">
-          <caret line="1" column="36" lean-forward="true" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="486">
+          <caret line="27" column="21" selection-start-line="27" selection-start-column="21" selection-end-line="27" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guli-gateway/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="51" selection-end-column="20" />
+        <state relative-caret-position="882">
+          <caret line="49" column="21" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-generator/src/test/java/io/renren/RenrenApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/CategoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="39" column="55" selection-start-line="39" selection-start-column="55" selection-end-line="39" selection-end-column="55" />
+        <state relative-caret-position="681">
+          <caret line="81" column="25" selection-start-line="81" selection-start-column="25" selection-end-line="81" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-product/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="26" selection-start-line="26" selection-end-line="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/GuliProductApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="13" column="29" lean-forward="true" selection-start-line="13" selection-start-column="29" selection-end-line="13" selection-end-column="29" />
+        <state relative-caret-position="126">
+          <caret line="7" selection-start-line="7" selection-end-line="7" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#448#449#0" expanded="true" />
@@ -942,10 +829,59 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/guli-gateway/src/main/resources/application.yaml">
+    <entry file="file://$PROJECT_DIR$/guli-ware/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state relative-caret-position="252">
+          <caret line="32" column="21" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-product/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="36" selection-start-line="1" selection-start-column="36" selection-end-line="1" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-ware/src/main/resources/bootstrap.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="18">
+          <caret line="1" column="16" selection-start-line="1" selection-start-column="16" selection-end-line="1" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-ware/src/main/java/com/uptown/guli/ware/GuliWareApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-product/src/main/resources/application.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-generator/src/main/java/io/renren/RenrenApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/renren-generator/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="9" column="49" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/guli-product/src/main/java/com/uptown/guli/product/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="68" column="35" lean-forward="true" selection-start-line="68" selection-start-column="35" selection-end-line="68" selection-end-column="35" />
         </state>
       </provider>
     </entry>

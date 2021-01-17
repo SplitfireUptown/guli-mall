@@ -48,7 +48,7 @@ public class BrandController {
     public R info(@PathVariable("brandId") Long brandId){
 		BrandEntity brand = brandService.getById(brandId);
 
-        return R.ok().put("brand", brand);
+        return R.ok().put("data", brand);
     }
 
     /**
