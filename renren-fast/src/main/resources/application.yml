@@ -45,6 +45,9 @@ spring:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
+      config:
+        name: renren-fast
+        server-addr: 127.0.0.1:8848
 
 #mybatis
 mybatis-plus:

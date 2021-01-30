@@ -1,8 +1,6 @@
 package com.uptown.guli;
 
-import com.aliyun.oss.OSS;
 import com.aliyun.oss.OSSClient;
-import com.aliyun.oss.OSSClientBuilder;
 import lombok.SneakyThrows;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
