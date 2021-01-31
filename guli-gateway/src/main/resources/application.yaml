@@ -24,9 +24,19 @@ spring:
         - id: product_route
           uri: lb://guli-product
           predicates:
-            - Path=/api/product/**
+            - Path=/api/guli-product/**
+          filters:
+            - RewritePath=/api/guli-product/(?<segment>.*),/$\{segment}
+
+
+
+        - id: third-party
+          uri: lb://guli-third-party
+          predicates:
+            - Path=/api/thirdparty/**
           filters:
             - RewritePath=/api/(?<segment>.*),/$\{segment}
+
 
         - id: admin_route
           uri: lb://renren-fast
