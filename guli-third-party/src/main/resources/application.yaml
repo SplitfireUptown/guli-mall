@@ -8,7 +8,7 @@ spring:
       access-key: LTAI4G9niwzj7HGqPruhYFwX
       secret-key: fMJj2CQULqH1fAderxYhiWTJQGoNqt
       oss:
-        endpoint: http://oss-cn-beijing.aliyuncs.com
+        endpoint: oss-cn-beijing.aliyuncs.com
         bucket: guli-uptown
 
   application:
