@@ -1,9 +1,11 @@
 package com.uptown.guli.product.controller;
 
 import java.util.Arrays;
+import java.util.HashMap;
 import java.util.Map;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -15,6 +17,7 @@ import com.uptown.guli.product.service.BrandService;
 import com.uptown.common.utils.PageUtils;
 import com.uptown.common.utils.R;
 
+import javax.validation.Valid;
 
 
 /**
@@ -55,9 +58,9 @@ public class BrandController {
      * 保存
      */
     @RequestMapping("/save")
-    public R save(@RequestBody BrandEntity brand){
-		brandService.save(brand);
+    public R save(@Valid @RequestBody BrandEntity brand, BindingResult result){
 
+        brandService.save(brand);
         return R.ok();
     }
 
