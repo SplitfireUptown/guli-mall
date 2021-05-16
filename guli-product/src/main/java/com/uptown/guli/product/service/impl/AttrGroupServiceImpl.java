@@ -11,6 +11,7 @@ import com.uptown.common.utils.Query;
 import com.uptown.guli.product.dao.AttrGroupDao;
 import com.uptown.guli.product.entity.AttrGroupEntity;
 import com.uptown.guli.product.service.AttrGroupService;
+import org.springframework.util.ObjectUtils;
 
 
 @Service("attrGroupService")
@@ -25,5 +26,29 @@ public class AttrGroupServiceImpl extends ServiceImpl<AttrGroupDao, AttrGroupEnt
 
         return new PageUtils(page);
     }
+
+    @Override
+    public PageUtils queryPage(Map<String, Object> params, Long catelogId) {
+        if (catelogId == 0) {
+            IPage<AttrGroupEntity> page = this.page(new Query<AttrGroupEntity>().getPage(params), new QueryWrapper<>());
+            return new PageUtils(page);
+        } else {
+
+            QueryWrapper<AttrGroupEntity> wrapper = new QueryWrapper<>();
+            wrapper.eq("catelog_id", catelogId);
+
+            String key = (String) params.get("key");
+            if (ObjectUtils.isEmpty(key)) {
+                wrapper.and(i -> {
+                    i.eq("attr_group_id", key).or().like("attr_group_name", key);
+                });
+            }
+
+            IPage<AttrGroupEntity> page = this.page(new Query<AttrGroupEntity>().getPage(params),
+                    wrapper);
+            return new PageUtils(page);
+        }
+    }
+
 
 }

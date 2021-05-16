@@ -27,7 +27,6 @@ public enum BizCodeEnum {
     }
 
     public String getErrorMsg() {
-
-
+        return errorMsg;
     }
 }

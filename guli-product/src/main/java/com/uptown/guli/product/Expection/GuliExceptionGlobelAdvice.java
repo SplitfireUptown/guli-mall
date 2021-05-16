@@ -23,17 +23,15 @@ public class GuliExceptionGlobelAdvice {
 
     @ExceptionHandler(value = MethodArgumentNotValidException.class)
     public R handleVaildException(MethodArgumentNotValidException e) {
-
-        Map<String, String> map = new HashMap<>();
-        BindingResult result = e.getBindingResult();
-        result.getFieldErrors().forEach(i -> {
-            String msg = i.getDefaultMessage();
-            String filed = i.getField();
-            map.put(filed, msg);
-        });
         log.error("数据校验出现问题{}, 异常类型{}", e.getMessage(), e.getClass());
 
-        return R.error(BizCodeEnum.BAILD_EXCEPTION.getCode(), BizCodeEnum.BAILD_EXCEPTION.getErrorMsg()).put("data", map);
+
+        Map<String, String> errorMap = new HashMap<>();
+        BindingResult bindingResult = e.getBindingResult();
+        bindingResult.getFieldErrors().forEach(i -> {
+            errorMap.put(i.getField(), i.getDefaultMessage());
+        });
+        return R.error(BizCodeEnum.BAILD_EXCEPTION.getCode(), BizCodeEnum.BAILD_EXCEPTION.getErrorMsg()).put("data", errorMap);
 
     }
 
