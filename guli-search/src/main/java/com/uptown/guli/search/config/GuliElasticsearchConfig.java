@@ -18,6 +18,7 @@ public class GuliElasticsearchConfig {
     static {
         RequestOptions.Builder builder = RequestOptions.DEFAULT.toBuilder();
 
+
         //builder.addHeader("Authorization", "Bearer " + TOKEN);
 //        builder.setHttpAsyncResponseConsumerFactory(
 //                new HttpAsyncResponseConsumerFactory
