@@ -22,6 +22,7 @@
         <module>guli-third-party</module>
         <module>renren-fast</module>
         <module>renren-generator</module>
+        <module>guli-search</module>
     </modules>
 
 
