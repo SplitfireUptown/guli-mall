@@ -6,3 +6,5 @@ springcloud统一Greenwich.SR3
 
 
 日他哥，依赖太乱了，整理依赖切到dev开发
+
+springboot依赖统一切到2.2.6.RELEASE，renren项目保留至2.4.0
